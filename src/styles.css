@@ -1,1 +1,66 @@
 /* You can add global styles to this file, and also import other style files */
+#page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.card
+  .card-action
+  .pagination
+  li
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #444;
+}
+
+.card
+  .card-action
+  .pagination
+  li.active
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #fff;
+}
+
+.card
+  .card-action
+  .pagination
+  li
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  margin-right: 0px;
+}
+
+.card
+  .card-action
+  .pagination
+  li
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #444;
+}
+
+.card
+  .card-action
+  .pagination
+  li.active
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #fff;
+}
+
+.card
+  .card-action
+  .pagination
+  li
+  a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  margin-right: 0px;
+}
+
+.btn-floating:not(.btn-large):not(.btn-small) {
+  padding-left: 12.8px;
+}
+
+.show {
+  display: block !important;
+}

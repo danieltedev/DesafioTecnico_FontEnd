@@ -1,0 +1,5 @@
+.loading {
+  background-color: transparent !important;
+  overflow-y: hidden !important;
+  box-shadow: none !important;
+}

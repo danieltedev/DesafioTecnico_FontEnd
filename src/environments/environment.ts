@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  access: 'api/access',
+  request_for_ip: 'api/request-for-ip',
+  request_for_hour: 'api/request-for-hour',
+  request_for_user_agent: 'api/request-for-user-agent'
 };
 
 /*

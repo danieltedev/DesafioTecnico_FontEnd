@@ -1,0 +1,15 @@
+<nav>
+  <div class="nav-wrapper">
+    <a [routerLink]="['/dashboard']" class="brand-logo center">IMPORT FILE LOG ACCESS</a>
+    <a href="#" data-target="mobile-mode" class="sidenav-trigger show"><i class="fas fa-align-justify"></i></a>
+  </div>
+</nav>
+<ul class="sidenav" id="mobile-mode">
+  <li routerLinkActive="active">
+    <a [routerLink]="['/dashboard']">DASHBOARD</a>
+  </li>
+  <li routerLinkActive="active">
+    <a [routerLink]="['/upload-file/filter']">LOGS</a>
+    <a [routerLink]="['/upload-file/import']" class="hide">LOGS</a>
+  </li>
+</ul>
